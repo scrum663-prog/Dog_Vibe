@@ -1,0 +1,7 @@
+{
+  "php.validate.enable": true,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.DS_Store": true
+  }
+}

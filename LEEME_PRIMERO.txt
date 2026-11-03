@@ -1,0 +1,15 @@
+DOG VIVE 1.1 - VERSIÓN CON FORMULARIOS CONECTADOS
+
+1. Haz copia de seguridad del proyecto y de la base de datos antes de reemplazar archivos.
+2. Copia la carpeta DogVive1.1 a C:\xampp\htdocs\DogVive1.1.
+3. Inicia Apache y MySQL desde XAMPP.
+4. Verifica que exista la base dog_next en phpMyAdmin. Si ya existe, NO vuelvas a importar el SQL original.
+5. Si la base no existe, importa una sola vez DOG_Vibe_phpMyAdmin_referencia_NO_REIMPORTAR.sql.
+6. Abre http://localhost/DogVive1.1/.
+7. Crea una cuenta de propietario para probar mascotas, vacunas y reservas. Para probar el rol entrenador, crea otra cuenta y adjunta una imagen o PDF del certificado.
+
+La conexión está en conexion.php (localhost / dog_next / root / contraseña vacía por defecto).
+
+Los campos y tablas auxiliares que faltan se crean automáticamente al usar las funciones correspondientes. Se agregan tablas para vacunas y eventos de sesión, además de columnas para archivos, mensajes y reservas. No se borran las 12 tablas originales.
+
+El pago es demostrativo y queda pendiente de verificación; no se realizan cobros reales. El restablecimiento de contraseña necesita mail() configurado fuera del entorno local.
